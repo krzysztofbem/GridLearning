@@ -38,6 +38,66 @@
 // }
 
 // GRID ZADANIE 2 //
+// *,
+// *::after,
+// *::before {
+// 	box-sizing: border-box;
+// 	margin: 0;
+// 	padding: 0;
+// }
+
+// body {
+// 	height: 100vh;
+// 	font-family: 'Open Sans', sans-serif;
+// 	background-color: #333;
+// 	font-size: 3.6rem;
+// }
+
+// .wrapper {
+// 	display: grid;
+// 	grid-template-columns: 2fr 1fr;
+// 	grid-template-rows: 100px 100px 500px 100px;
+// }
+
+// .item {
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: center;
+// 	padding: 10px 20px;
+// 	text-transform: uppercase;
+// }
+
+// nav {
+// 	background-color: tomato;
+// 	grid-column: 1/3;
+// 	grid-row: 1/2;
+// }
+
+// header {
+// 	background-color: gold;
+// 	grid-column: 1/3;
+// 	grid-row: 2/3;
+// }
+
+// main {
+// 	background-color: cornflowerblue;
+// 	grid-column: 1/2;
+// 	grid-row: 3/4;
+// }
+
+// aside {
+// 	background-color: slateblue;
+// 	grid-column: 2/3;
+// 	grid-row: 3/4;
+// }
+
+// footer {
+// 	background-color: greenyellow;
+// 	grid-column: 1/3;
+// 	grid-row: 4/5;
+// }
+
+// GRID ZADANIE 3
 *,
 *::after,
 *::before {
@@ -54,9 +114,7 @@ body {
 }
 
 .wrapper {
-	display: grid;
-	grid-template-columns: 2fr 1fr;
-	grid-template-rows: 100px 100px 500px 100px;
+	margin: 50px;
 }
 
 .item {
@@ -65,34 +123,52 @@ body {
 	justify-content: center;
 	padding: 10px 20px;
 	text-transform: uppercase;
+	border: 1px solid black;
 }
 
-nav {
-	background-color: tomato;
-	grid-column: 1/3;
-	grid-row: 1/2;
-}
-
-header {
-	background-color: gold;
-	grid-column: 1/3;
-	grid-row: 2/3;
-}
-
-main {
+.blue {
 	background-color: cornflowerblue;
-	grid-column: 1/2;
-	grid-row: 3/4;
 }
 
-aside {
+.purple {
 	background-color: slateblue;
-	grid-column: 2/3;
-	grid-row: 3/4;
 }
 
-footer {
+.green {
 	background-color: greenyellow;
-	grid-column: 1/3;
-	grid-row: 4/5;
 }
+
+// .one {
+// 	grid-row: ;
+// 	grid-column: ;
+// }
+
+// .two {
+// 	grid-row: ;
+// 	grid-column: ;
+// }
+
+// .three {
+// 	grid-row: ;
+// 	grid-column: ;
+// }
+
+// .four {
+// 	grid-row: ;
+// 	grid-column: ;
+// }
+
+// .five {
+// 	grid-row: ;
+// 	grid-column: ;
+// }
+
+// .six {
+// 	grid-row: ;
+// 	grid-column: ;
+// }
+
+// .seven {
+// 	grid-row: ;
+// 	grid-column: ;
+// }

@@ -15,9 +15,7 @@ body {
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 100px 100px 500px 100px;
+  margin: 50px;
 }
 
 .item {
@@ -32,34 +30,17 @@ body {
           justify-content: center;
   padding: 10px 20px;
   text-transform: uppercase;
+  border: 1px solid black;
 }
 
-nav {
-  background-color: tomato;
-  grid-column: 1/3;
-  grid-row: 1/2;
-}
-
-header {
-  background-color: gold;
-  grid-column: 1/3;
-  grid-row: 2/3;
-}
-
-main {
+.blue {
   background-color: cornflowerblue;
-  grid-column: 1/2;
-  grid-row: 3/4;
 }
 
-aside {
+.purple {
   background-color: slateblue;
-  grid-column: 2/3;
-  grid-row: 3/4;
 }
 
-footer {
+.green {
   background-color: greenyellow;
-  grid-column: 1/3;
-  grid-row: 4/5;
 }/*# sourceMappingURL=main.css.map */
